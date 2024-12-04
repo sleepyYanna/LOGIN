@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    background-color: rgba(35, 31, 32, 1);
+}
+
+.login {
+    background-color: #E6E6E6;
+    color: black;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.login img {
+    height: 90px;
+    align-items: center;
+    margin: auto;
+}
+
+.user {
+    display: grid;
+    gap: 10px;
+}
+
+.user input {
+    background-color: rgba(35, 31, 32, 0.329);
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.pass {
+    display: grid;
+    gap: 10px;
+}
+
+.pass input {
+    background-color: rgba(35, 31, 32, 0.329);
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+/* Centering the login button */
+.loginbtn {
+    height: 40px;
+    background-color: rgba(228, 194, 103, 1);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(35, 31, 32);
+    display: block; /* This makes the button behave as a block-level element */
+    width: 100%; /* Make the button take up full width */
+    text-align: center; /* Center the text inside the button */
+}
+
+a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+button {
+    margin: auto;
+    width: 200px;
+}
+
+button:hover {
+    background-color: rgb(162, 128, 33);
+}
